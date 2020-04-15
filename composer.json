@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
-			"NMCINT\\AssetManager\\": "src/"
+			"AssetManager\\": "src/"
 		}
 	},
     "require": {
@@ -22,7 +22,7 @@
     "extra":{
       "laravel":{
         "provider":[
-          "NMCINT\\AssetManager\\AssetServiceProvider"
+          "AssetManager\\AssetServiceProvider"
         ]
       }
     }

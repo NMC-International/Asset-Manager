@@ -1,6 +1,6 @@
 <?php
 
-namespace NMCINT\AssetManager;
+namespace AssetManager;
 
 class Assets
 {
@@ -10,6 +10,6 @@ class Assets
     }
 
     public function test(){
-        echo "NMCINT\AssetManager Loaded Successfully";
+        echo config('assets.root_path');
     }
 }

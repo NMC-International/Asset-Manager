@@ -6,12 +6,10 @@
  * Time: 12:48 AM
  */
 
-namespace NMCINT\AssetManager;
+namespace AssetManager;
 
 
-use Illuminate\Support\ServiceProvider;
-
-class AssetServiceProvider extends ServiceProvider
+class AssetServiceProvider extends  \Illuminate\Support\ServiceProvider
 {
     public function boot()
     {
@@ -20,14 +18,10 @@ class AssetServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/config/assets.php' => config_path('assets.php')
         ]);
-        echo "I am booted";
     }
 
     public function register()
     {
-        $this->mergeConfigFrom(
-            __DIR__.'/config/assets.php', 'assets'
-        );
-        echo "I am registered";
+        // Needed for Laravel < 5.3 compatibility
     }
 }
