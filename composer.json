@@ -1,29 +1,28 @@
 {
     "name": "nmcint/assetmanager",
-    "description":  "This package will help to generate minified, combined, cached css, js, img and html output",
+    "description": "This package will help to generate minified, combined, cached css, js, img and html output",
     "type": "project",
     "license": "AGPL-3.0-only",
-    "authors": [
-        {
-            "name": "Engr. Syed Rowshan Ali",
-            "email": "engr.rowshan@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Engr. Syed Rowshan Ali",
+        "email": "engr.rowshan@gmail.com"
+    }],
     "minimum-stability": "dev",
-	"autoload": {
-		"psr-4": {
-			"AssetManager\\": "src/"
-		}
-	},
-    "require": {
-      "php":"^7.2",
-      "laravel/framework": "^6.2"
+    "autoload": {
+        "psr-4": {
+            "AssetManager\\": "src/"
+        }
     },
-    "extra":{
-      "laravel":{
-        "provider":[
-          "AssetManager\\AssetServiceProvider"
-        ]
-      }
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.2"
+
+    },
+    "extra": {
+        "laravel": {
+            "provider": [
+                "AssetManager\\AssetServiceProvider"
+            ]
+        }
     }
 }
