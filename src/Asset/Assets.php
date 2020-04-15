@@ -1,6 +1,6 @@
 <?php
 
-namespace AssetManager;
+namespace AssetManager\Asset;
 
 class Assets
 {

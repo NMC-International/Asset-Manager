@@ -16,7 +16,7 @@ class AssetServiceProvider extends  \Illuminate\Support\ServiceProvider
 
         //Publish the config into app config directory
         $this->publishes([
-            __DIR__ . '/config/assets.php' => config_path('assets.php')
+            __DIR__ . '/Config/assets.php' => config_path('assets.php')
         ]);
     }
 
