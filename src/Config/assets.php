@@ -23,7 +23,8 @@ return [
     |
     */
 
-    'root_path' => env('ASSET_PATH', 'resource/'),
+    'root_path'     => env('ASSET_PATH', 'resource/'),
+    'public_path'   => env('ASSET_PUBLIC_PATH','public/assets/'),
 
     /*
     |--------------------------------------------------------------------------
