@@ -4,6 +4,23 @@
 The is a standalone PHP package to manage assets of frontend of any website.
 Php Asset Manager for combining, minifing, caching css, js, img and html.
 
+#Install and Config
+### Install in new system
+```
+composer require nmcint/assetmanager
+```
+
+### Uninstall system
+```text
+composer remove nmcint/assetmanager
+```
+
+###Get the config file
+run
+```text
+php artisan vendor:publish
+```
+
 ## Key features 
 ### CSS
 1. Compile Scss or Sass to CSS3
